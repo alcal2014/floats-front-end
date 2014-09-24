@@ -17,10 +17,12 @@ width: 100%;
 /* hint! what do you have to add here? */
 
 .logo {
-float: left;}
+float: left;
+}
 
 .navigation {
-float: right;}
+float: right;
+}
 
 .sidebar {
 
@@ -30,16 +32,18 @@ float: left;
 }
 
 .main-content  {
-float: right;
-display: inline-block;
-width: 70%;
+width: 100%;
+height: 400px;
 }
 /* hint! you have to contain the floated children elements. */
 
 .sub-content {
+float: right;
 	/* hint! */
 }
 .sub-content-2 {
+float: right;
+clear: right;
 	/* hint! */
 }
 
