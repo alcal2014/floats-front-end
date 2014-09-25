@@ -6,10 +6,15 @@
 /* Example 09 */
 
 .header {
+width: 100%;
 }
 
 .sidebar {}
 
+.container {
+width: 1024px;
+margin: 0 auto;
+}
 .main-content {}
 
 .sub-content {}
