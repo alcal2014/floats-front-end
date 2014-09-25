@@ -11,18 +11,40 @@
 }
 
 
-.header {}
+.header {
+height: 100px;
+}
 
-.logo {}
+.logo {
+float: left;
+width: 300px;
+}
 
-.navigation {}
+.navigation {
+float: right;
+width: 600px;
+}
 
-.sidebar {}
+.sidebar {
+float: left;
+width: 300px;
+}
 
-.main-content {}
+.main-content {
+height: 160px;
+}
 
-.sub-content {}
+.sub-content {
+width: 600px;
+float: right;
+clear: right;
 
-.sub-content-2 {}
+}
+
+.sub-content-2 {
+width: 600px;
+clear: right;
+float: right;
+}
 
 .footer {}
